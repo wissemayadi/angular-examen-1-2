@@ -1,0 +1,16 @@
+<p>list-annonces works!</p>
+
+<div *ngFor="let item of list">
+    <div *ngIf="item.etat =='confirmé' " [style.background-color]="'green'" >
+        {{item.titre}}
+        {{item.description}}
+        {{item.position}}
+        {{item.etat}}
+    </div>
+    <div *ngIf="item.etat =='en attente' " [style.background-color]="'red'" >
+        {{item.titre}}
+        {{item.description}}
+        {{item.position}}
+        {{item.etat}}
+    </div>
+</div>

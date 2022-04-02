@@ -1,0 +1,8 @@
+<div *ngFor="let item of listArticle ; let i=index ">
+<div *ngIf="i <nbArticles || nbArticles==0 ">
+{{item.titre}}
+{{item.contenu}}
+{{item.auteur}}
+{{item.date}}
+</div>
+</div>

@@ -1,0 +1,8 @@
+
+<h1>Les articles de jour</h1> <br>
+<label>Veuillez saisir les articles de jour</label>
+<input type="number" [(ngModel)]="max" />
+
+<app-page [listArticle]="tab" [nbArticles]="max"></app-page>
+<!-- nbArticles!:number; 
+@Input()listArticle! -->
