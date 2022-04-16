@@ -1,0 +1,13 @@
+<p>add-article works!</p>
+
+<form #f="ngForm">
+   
+    <label for="">id</label><input type="number" name="title" ngModel required #n="ngModel" /><br>
+    <div *ngIf="n.invalid">field required</div>
+    <label for="">title</label><input type="text" name="title" ngModel required #t="ngModel"/><br>
+    <div *ngIf="t.invalid">field required</div>
+    <label for="">description</label><input type="text"  name="description"  ngModel #d="ngModel" minlength="10" /><br>
+    <div *ngIf="d.invalid">10 carac....</div>
+
+    <input type="submit" value="submit" (click)="saveAnnonce(f.value)">
+    </form>

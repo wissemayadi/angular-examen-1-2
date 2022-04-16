@@ -1,0 +1,12 @@
+<div><p>show-one-article works!</p></div>
+<div>
+    {{art.id}} |
+    {{art.title}} |
+    {{art.description}}
+   
+    <br>
+    <input type="submit" value="delete" (click)="sendidto(art.id)">
+
+      <a [routerLink]="['/update/',art.id]">update</a>
+
+</div>

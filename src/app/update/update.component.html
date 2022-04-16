@@ -1,0 +1,13 @@
+<p>update works!</p>
+
+<form #f="ngForm" >
+
+    <label for="">id</label><input type="number"  name="id" [(ngModel)]="article.id" ><br>
+    <label for="">title</label><input type="text" name="title"[(ngModel)]="article.title"><br>
+    <label for="">description</label><input type="text" name="description" [(ngModel)]="article.description"><br>
+    
+    <input type="submit" value="mettre a jour" (click)="update(article)">
+
+
+
+</form>

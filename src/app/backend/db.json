@@ -1,0 +1,64 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "wissem ayadi",
+      "description": "twess 7885erer"
+    },
+    {
+      "id": 2,
+      "title": "json-server",
+      "description": "typicode"
+    },
+    {
+      "title": "erererere",
+      "description": "ererererer",
+      "id": 3
+    },
+    {
+      "title": "esprittttttttttttt",
+      "description": "azert",
+      "id": 4
+    },
+    {
+      "title": "",
+      "description": "azert",
+      "id": 5
+    },
+    {
+      "title": "",
+      "description": "",
+      "id": 6
+    },
+    {
+      "title": "hello",
+      "description": "hiiii",
+      "id": 7
+    },
+    {
+      "title": "zez",
+      "description": "zezezeze",
+      "id": 8
+    },
+    {
+      "title": 7788,
+      "description": "sdsd87878ze",
+      "id": 9
+    },
+    {
+      "title": "espritttt",
+      "description": "esprittttttttt",
+      "id": 10
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
