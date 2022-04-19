@@ -1,0 +1,13 @@
+{
+  "employee": [
+    {
+      "firstname": "wissem",
+      "lastname": "louis",
+      "email": "hi@yahoo.fr",
+      "password": "123456",
+      "age": "755",
+      "salary": "1000",
+      "id": 1
+    }
+  ]
+}
