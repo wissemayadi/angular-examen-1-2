@@ -4,19 +4,29 @@ form{
 
 .btn{
     display: inline-flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-top: 10px;
     width: 100%;
-  
+ 
  
 }
 
 
-svg{
+  svg{
     display: inline-flex;
-    
+    flex-direction: row;
+
+    justify-content: space-between;
     height: 20px;
     width: 20px;
+ 
+    
+}
+ 
+.svg1  {
+  
+ margin-right:12px;
 }

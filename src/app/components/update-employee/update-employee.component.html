@@ -35,13 +35,21 @@
         </div>
       </div>
       <div class="btn">
-    <button type="submit" class="btn btn-primary" [routerLink]="['/list']">
-        Go back
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polyline points="10 5 3 12 10 19" fill="none" stroke="#000" stroke-miterlimit="10"/><line x1="3" y1="12" x2="22" y2="12" fill="none" stroke="#000" stroke-miterlimit="10"/></svg>
-
+    <button type="submit"  class="btn btn-primary" [routerLink]="['/list']">
+       <span class="svg1">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polyline points="10 5 3 12 10 19" fill="none" stroke="#000" stroke-miterlimit="10"/><line x1="3" y1="12" x2="22" y2="12" fill="none" stroke="#000" stroke-miterlimit="10"/></svg>
+    </span>
+      go back
     </button>
 
-    <button type="submit" class="btn btn-success" (click)="update(f.value)">Update employee</button>
+    <button type="submit" class="btn btn-success" (click)="update(employee)">
+     
+      <span class="svg1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="7.5 16.5 8 13.5 18.5 3 19.5 3 21 4.5 21 5.5 10.5 16 7.5 16.5" fill="none" stroke="#000" stroke-miterlimit="10"/><line x1="16.5" y1="4.5" x2="19.5" y2="7.5" fill="none" stroke="#000" stroke-miterlimit="10"/><polyline points="16.5 15.5 16.5 21.5 2.5 21.5 2.5 7.5 8.5 7.5" fill="none" stroke="#000"/></svg>
+      </span> 
+      Update employee
+    </button>
 </div>
 
   </form>
+
+

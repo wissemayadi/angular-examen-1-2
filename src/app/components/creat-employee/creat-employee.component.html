@@ -31,12 +31,17 @@
       </div>
       <div class="btn">
     <button type="submit" class="btn btn-primary" [routerLink]="['/list']">
-        Go back
+      <span class="svg1">
+       
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polyline points="10 5 3 12 10 19" fill="none" stroke="#000" stroke-miterlimit="10"/><line x1="3" y1="12" x2="22" y2="12" fill="none" stroke="#000" stroke-miterlimit="10"/></svg>
-
+      </span> Go back
     </button>
-
-    <button type="submit" class="btn btn-success" (click)="add(f.value)">Add employee</button>
+     
+    <button type="submit" class="btn btn-success" (click)="add(f.value)">
+      <span class="svg1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="8.5" cy="7" r="4" fill="none" stroke="#000"/><polyline points="1 20.5 1 16.5 4 13.5 8.5 15 13 13.5 16 16.5 16 20.5" fill="none" stroke="#000"/><line x1="19.5" y1="6.5" x2="19.5" y2="13.5" fill="none" stroke="#000" stroke-miterlimit="10"/><line x1="23" y1="10" x2="16" y2="10" fill="none" stroke="#000" stroke-miterlimit="10"/></svg>
+      </span>
+      Add employee</button>
 </div>
 
   </form>
