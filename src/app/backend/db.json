@@ -1,13 +1,22 @@
 {
   "employee": [
     {
+      "id": 1,
       "firstname": "wissem",
       "lastname": "louis",
-      "email": "hi@yahoo.fr",
+      "email": "update@yahoo.fr",
       "password": "123456",
       "age": "755",
-      "salary": "1000",
-      "id": 1
+      "salary": "20000"
+    },
+    {
+      "firstname": "louis",
+      "lastname": "louis",
+      "email": "milan@yahoo.fr",
+      "password": "47552",
+      "age": "754",
+      "salary": "72222",
+      "id": 2
     }
   ]
 }

@@ -19,8 +19,10 @@
         <td>{{item.age}}</td>
         <td>{{item.salary}}</td>
         <div class="btn">
-            <button type="button" class="btn btn-primary">Update</button>
+          
+            <button type="button" class="btn btn-primary" [routerLink]="['/update/',item.id]">Update</button>
             <button type="button" class="btn btn-danger" (click)="delete(item.id)">Delete</button>
+       
         </div>
       </tr>
      

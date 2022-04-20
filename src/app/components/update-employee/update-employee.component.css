@@ -1,0 +1,22 @@
+form{
+    margin:40px 40px 250px 40px;
+}
+
+.btn{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+  
+ 
+}
+
+
+svg{
+    display: inline-flex;
+    
+    height: 20px;
+    width: 20px;
+}

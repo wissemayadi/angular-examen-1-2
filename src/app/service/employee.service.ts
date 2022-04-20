@@ -22,4 +22,13 @@ addEmployee(data :any){
 deleteEmployee(id :any){
   return this.http.delete("http://localhost:4500/employee/"+id);
 }
+
+updateEmployee(id :any,data:any){
+  return this.http.put("http://localhost:4500/employee/"+id,data);
+}
+
+getEmployeeById(id:any){
+  return this.http.get("http://localhost:4500/employee/"+id);
+
+}
 }
